@@ -1,6 +1,6 @@
 # Re-evaluating Graph Neural Networks for Early At-Risk Student Prediction
 
-Code for the MSc Computer Science dissertation of **Biodun Bolaji**:
+Code for my Student's [Bolaji, Co-supervised by Dr Nwelih] MSc Computer Science dissertation:
 *Re-evaluating Graph Neural Networks for Early At-Risk Student Prediction: Temporal
 Validation, Class Imbalance and Algorithmic Fairness.*
 
