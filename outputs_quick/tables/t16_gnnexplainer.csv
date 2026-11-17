@@ -1,0 +1,31 @@
+week,model,rank,feature,importance,n_students
+4,GraphSAGE,1,imd_band_60-70%,0.5613460421562195,5
+4,GraphSAGE,2,age_band_55<=,0.5603234171867371,5
+4,GraphSAGE,3,highest_education_Post Graduate Qualification,0.5529343605041503,5
+4,GraphSAGE,4,module_GGG,0.552024495601654,5
+4,GraphSAGE,5,region_South West Region,0.5516885638236999,5
+4,GraphSAGE,6,region_South East Region,0.5492850780487061,5
+4,GraphSAGE,7,imd_band_90-100%,0.544212281703949,5
+4,GraphSAGE,8,clicks_forumng,0.5440877616405487,5
+4,GraphSAGE,9,n_due,0.5391130387783051,5
+4,GraphSAGE,10,clicks_total,0.5376392006874084,5
+4,GraphSAGE,11,region_South Region,0.5346212208271026,5
+4,GraphSAGE,12,clicks_oucontent,0.5335472166538239,5
+4,GraphSAGE,13,imd_band_Missing,0.5328454732894897,5
+4,GraphSAGE,14,clicks_quiz,0.5322811007499695,5
+4,GraphSAGE,15,region_North Region,0.5303198039531708,5
+8,GraphSAGE,1,clicks_homepage,0.5674523711204529,5
+8,GraphSAGE,2,module_GGG,0.566947066783905,5
+8,GraphSAGE,3,clicks_forumng,0.5613801717758179,5
+8,GraphSAGE,4,active_days,0.5549242496490479,5
+8,GraphSAGE,5,n_resources,0.5537147641181945,5
+8,GraphSAGE,6,imd_band_80-90%,0.5508239984512329,5
+8,GraphSAGE,7,click_trend,0.5504152536392212,5
+8,GraphSAGE,8,imd_band_60-70%,0.5504103660583496,5
+8,GraphSAGE,9,region_East Midlands Region,0.5459954142570496,5
+8,GraphSAGE,10,clicks_total,0.5445811986923218,5
+8,GraphSAGE,11,region_North Region,0.5438973486423493,5
+8,GraphSAGE,12,imd_band_Missing,0.5432111859321594,5
+8,GraphSAGE,13,region_South West Region,0.5423838257789612,5
+8,GraphSAGE,14,clicks_last_week,0.5415798962116242,5
+8,GraphSAGE,15,days_since_last,0.5409147381782532,5

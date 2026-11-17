@@ -1,0 +1,17 @@
+{
+  "H1": {
+    "weeks_matching": 1,
+    "n_weeks": 2,
+    "supported": false
+  },
+  "H2": {
+    "weeks_shrinking": 0,
+    "n_weeks": 2,
+    "supported": false
+  },
+  "H3": {
+    "comparisons": 8,
+    "gnn_significantly_fairer": 1,
+    "supported": true
+  }
+}

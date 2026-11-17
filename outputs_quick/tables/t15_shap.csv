@@ -1,0 +1,31 @@
+week,model,rank,feature,mean_abs_shap
+4,XGB+graph,1,mean_score,1.1693588495254517
+4,XGB+graph,2,g_pagerank,0.4836830496788025
+4,XGB+graph,3,active_days,0.35148653388023376
+4,XGB+graph,4,highest_education_Lower Than A Level,0.3198653757572174
+4,XGB+graph,5,nb_clicks_last_week,0.20269367098808289
+4,XGB+graph,6,n_due,0.1940973550081253
+4,XGB+graph,7,g_mean_sim,0.16134044528007507
+4,XGB+graph,8,studied_credits,0.16032014787197113
+4,XGB+graph,9,highest_education_A Level or Equivalent,0.15932822227478027
+4,XGB+graph,10,clicks_homepage,0.1575612872838974
+4,XGB+graph,11,nb_active_days,0.1518259197473526
+4,XGB+graph,12,g_clustering,0.1484854519367218
+4,XGB+graph,13,nb_n_late,0.14656837284564972
+4,XGB+graph,14,nb_n_resources,0.14525409042835236
+4,XGB+graph,15,pre_start_clicks,0.14375704526901245
+8,XGB+graph,1,mean_score,1.380968689918518
+8,XGB+graph,2,submit_rate,0.512309730052948
+8,XGB+graph,3,g_pagerank,0.4317951500415802
+8,XGB+graph,4,active_days,0.3214416205883026
+8,XGB+graph,5,highest_education_Lower Than A Level,0.2626318037509918
+8,XGB+graph,6,click_trend,0.24787651002407074
+8,XGB+graph,7,n_late,0.2436094731092453
+8,XGB+graph,8,nb_days_since_last,0.21785320341587067
+8,XGB+graph,9,nb_clicks_last_week,0.19105491042137146
+8,XGB+graph,10,nb_n_resources,0.18599946796894073
+8,XGB+graph,11,n_due,0.17138072848320007
+8,XGB+graph,12,g_clustering,0.16687943041324615
+8,XGB+graph,13,days_since_last,0.16182856261730194
+8,XGB+graph,14,nb_mean_score,0.15273883938789368
+8,XGB+graph,15,g_mean_sim,0.1462285965681076

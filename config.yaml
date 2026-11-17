@@ -1,0 +1,39 @@
+# Configuration for the GNN vs gradient boosting benchmark on OULAD
+data_dir: data            # folder containing the seven OULAD CSV files
+output_dir: outputs
+seed: 42
+
+snapshots: [2, 4, 6, 8, 12]   # weeks; cut-off day = 7 * week
+
+split_b:
+  train: [2013B, 2013J]
+  validation: [2014B]
+  test: [2014J]
+split_a:
+  train: 0.70
+  validation: 0.15
+  test: 0.15
+
+graph:
+  k_neighbours: 10
+
+tuning:
+  n_trials: 20            # equal budget for every model
+  seeds: [0, 1, 2, 3, 4]  # final retraining seeds
+
+gnn:
+  max_epochs: 150
+  patience: 20
+  eval_every: 2
+  gat_heads: 4
+
+evaluation:
+  alert_budget: 0.20
+  n_bootstrap: 1000
+  alpha: 0.05
+  h1_margin: 0.02
+
+explain:
+  gnnexplainer_students: 100
+  gnnexplainer_weeks: [4, 8]
+  gnnexplainer_epochs: 100

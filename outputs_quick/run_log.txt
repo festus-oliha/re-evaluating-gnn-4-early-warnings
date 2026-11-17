@@ -1,0 +1,48 @@
+11:34:09  Loading OULAD from data
+11:34:14    courses                      22 rows
+11:34:14    assessments                 206 rows
+11:34:14    vle                       6,364 rows
+11:34:14    studentInfo              32,593 rows
+11:34:14    studentRegistration      32,593 rows
+11:34:14    studentAssessment       173,912 rows
+11:34:14    studentVle           10,655,280 rows
+11:34:17  Week  4:  27553 registrations, 44.2% at risk (removed 5040 early withdrawals)
+11:34:22  Week  8:  26532 registrations, 42.0% at risk (removed 6061 early withdrawals)
+11:34:22  Leakage check: 0 violations across 6 comparisons
+11:34:25  Week  4:  27553 registrations, 44.2% at risk (removed 5040 early withdrawals)
+11:34:32  Week  4 graphs: 27553 students, 209239 undirected edges (mean degree 15.2)
+11:34:33  Week 4: 65 features (+13 graph features); Split B train/val/test = 11818/6516/8434 (removed 785 overlapping)
+11:34:34    LR         val PR-AUC 0.793  (1 s)
+11:34:40    RF         val PR-AUC 0.785  (7 s)
+11:34:51    XGB        val PR-AUC 0.750  (10 s)
+11:35:12    XGB+graph  val PR-AUC 0.760  (21 s)
+11:35:48    GCN        val PR-AUC 0.710  (37 s)
+11:36:15    GraphSAGE  val PR-AUC 0.756  (26 s)
+11:37:13    GAT        val PR-AUC 0.713  (59 s)
+11:37:13    best GNN (validation): GraphSAGE; best gradient boosting: XGB+graph
+11:37:36  Week 4 done in 3.2 min
+11:37:36  Week 4 finished in 194.0 s
+11:37:41  Week  8:  26532 registrations, 42.0% at risk (removed 6061 early withdrawals)
+11:37:50  Week  8 graphs: 26532 students, 205584 undirected edges (mean degree 15.5)
+11:37:50  Week 8: 65 features (+13 graph features); Split B train/val/test = 11434/6217/8163 (removed 718 overlapping)
+11:37:51    LR         val PR-AUC 0.827  (1 s)
+11:37:58    RF         val PR-AUC 0.814  (7 s)
+11:38:13    XGB        val PR-AUC 0.797  (15 s)
+11:38:32    XGB+graph  val PR-AUC 0.801  (20 s)
+11:39:07    GCN        val PR-AUC 0.730  (34 s)
+11:39:30    GraphSAGE  val PR-AUC 0.777  (23 s)
+11:40:21    GAT        val PR-AUC 0.736  (51 s)
+11:40:21    best GNN (validation): GraphSAGE; best gradient boosting: XGB+graph
+11:40:37  Week 8 done in 3.0 min
+11:40:37  Week 8 finished in 181.0 s
+11:40:39  Week  4:  27553 registrations, 44.2% at risk (removed 5040 early withdrawals)
+11:40:43  Week  4 graphs: 27553 students, 209239 undirected edges (mean degree 15.2)
+11:40:50  Week 4 GraphSAGE graph reliance: PR-AUC 0.677 with edges, 0.645 without; mean |change| 0.128; flags changed 35.7%
+11:40:51  Week 4 GNNExplainer top features: imd_band_60-70%, age_band_55<=, highest_education_Post Graduate Qualification, module_GGG, region_South West Region
+11:40:54  Week  8:  26532 registrations, 42.0% at risk (removed 6061 early withdrawals)
+11:40:59  Week  8 graphs: 26532 students, 205584 undirected edges (mean degree 15.5)
+11:41:06  Week 8 GraphSAGE graph reliance: PR-AUC 0.716 with edges, 0.683 without; mean |change| 0.143; flags changed 35.0%
+11:41:07  Week 8 GNNExplainer top features: clicks_homepage, module_GGG, clicks_forumng, active_days, n_resources
+11:41:07  GNN explanations finished in 29.6 s
+11:41:21  Hypotheses: {'H1': {'weeks_matching': 1, 'n_weeks': 2, 'supported': False}, 'H2': {'weeks_shrinking': 0, 'n_weeks': 2, 'supported': False}, 'H3': {'comparisons': 8, 'gnn_significantly_fairer': 1, 'supported': True}}
+11:41:21  Analysis finished in 14.3 s

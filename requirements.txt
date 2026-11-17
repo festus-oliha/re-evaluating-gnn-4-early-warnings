@@ -1,0 +1,13 @@
+numpy>=2.0
+pandas>=3.0
+scipy>=1.11
+scikit-learn>=1.5
+xgboost>=2.1
+optuna>=4.0
+networkx>=3.2
+fairlearn>=0.12
+shap>=0.46
+matplotlib>=3.8
+PyYAML>=6.0
+torch>=2.4
+torch_geometric>=2.6

@@ -1,0 +1,7 @@
+from_week,to_week,feature,violations,n
+4,8,clicks_total,0,26532
+4,8,active_days,0,26532
+4,8,pre_start_clicks,0,26532
+4,8,n_resources,0,26532
+4,8,n_due,0,26532
+4,8,n_submitted,0,26532
